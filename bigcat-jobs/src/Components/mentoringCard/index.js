@@ -1,4 +1,5 @@
 import "./style.css"
+import React from "react";
 
 const MentoringCard = ({image, author, subtitle, description, price}) => {
     return (

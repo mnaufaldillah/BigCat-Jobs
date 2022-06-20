@@ -1,4 +1,5 @@
 import "./style.css"
+import React from "react";
 
 const CardCourse = ({image, title, author, stars, reviewNumber, price}) => {
     return (
