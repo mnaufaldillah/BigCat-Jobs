@@ -1,4 +1,5 @@
 import "./style.css";
+import React from "react";
 
 const CourseCategories = ({ image, title, subTitle }) => {
   return (
