@@ -8,9 +8,9 @@ const MentoringCard = ({image, author, subtitle, description, price}) => {
             <img src={image} alt="" />
             <div className="card-info">
               <h2>
-                <a href="#">{title}</a>
+                <a href="#">{author}</a>
               </h2>
-              <p>{subTitle}</p>
+              <p>{subtitle}</p>
               <p>{description}</p>
               <h1>{price}</h1>
             </div>
