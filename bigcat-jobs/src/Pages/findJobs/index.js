@@ -1,5 +1,6 @@
 import Hero from "../../Components/hero/index";
 import CardJob from "../../Components/cardJob";
+import React from "react";
 
 const FindJobs = () => {
   return (
@@ -12,7 +13,7 @@ const FindJobs = () => {
         <h2>Recent job vacancies </h2>
         <div className="card-job">
           <CardJob
-            image="tokopedia"
+            image="https://cdn-images-1.medium.com/max/1200/1*i0f2d72a2jiUAK3mbyXn0A.png"
             title="Software Engineer/Web Platform"
             company="Tokopedia"
             place="Surabaya, East Java Indonesia"

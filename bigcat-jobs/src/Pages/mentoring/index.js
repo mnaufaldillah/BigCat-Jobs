@@ -1,5 +1,6 @@
 import Hero from "../../Components/hero";
 import MentoringCard from "../../Components/mentoringCard";
+import React from "react";
 
 const Mentoring = () => {
   return (
@@ -11,11 +12,12 @@ const Mentoring = () => {
       <div className="mentor-list">
         <h2>Meet The Experts</h2>
         <MentoringCard
+          image="https://cdn-images-1.medium.com/max/1200/1*i0f2d72a2jiUAK3mbyXn0A.png"
           author="Thomas Adams"
           subtitle="UI/UX Designer"
           description="Memulai karir sebagai Data Analyst tanpa background IT"
           price="Rp 200,000/60 Mins"
-          />
+        />
       </div>
     </>
   );

@@ -1,4 +1,5 @@
 import Hero from "../../Components/hero";
+import React from "react";
 
 const FindSalaries = () => {
   return (

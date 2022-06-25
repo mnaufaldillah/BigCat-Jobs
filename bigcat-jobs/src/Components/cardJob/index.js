@@ -1,23 +1,27 @@
-import "./style.css"
+import "./style.css";
 import React from "react";
 
 const CardJob = ({ image, title, company, place, recruitStatus, time }) => {
-    return (
-        <div className ="card-wrapper">
-            <div className="card-content">
-                <img src={image} alt="" />
-                <div className="card-info">
-                    <h2>
-                        <a href="#">{title}</a>
-                    </h2>
-                    <p>{company}</p>
-                    <p>{place}</p>
-                </div>
-                <p>{recruitStatus}</p>
-                <p>{time}</p>
-            </div>
+  return (
+    <div className="job-wrapper">
+      <div className="job-content">
+        <img src={image} alt="" />
+        <div className="job-info">
+          <h2>
+            <a href="#">{title}</a>
+          </h2>
+          <div className="job-company">
+            <p>{company}</p>
+            <p>{place}</p>
+          </div>
         </div>
-    );
+        <div className="job-status">
+          <p>{recruitStatus}</p>
+          <p>{time}</p>
+        </div>
+      </div>
+    </div>
+  );
 };
 
-export default CardJob
+export default CardJob;

@@ -3,33 +3,35 @@ a {
     color: #4271EA;
 }
 
-.card-wrapper {
+.categories-wrapper {
     width: 520px;
     height: 260px;
     border: 1px solid #4F4F4F;
     border-radius: 8px;
+    margin-top: 60px;
+    margin-bottom: 100px;
 }
 
-.card-content {
+.categories-content {
    padding: 40px;
 }
 
-.card-content img {
+.categories-content img {
     height: 100px;
     width: 100px;
     border-radius: 100px;
 }
 
-.card-info {
+.categories-info {
     line-height: 10px;
 }
 
-.card-info h2 {
+.categories-info h2 {
     font-size: 26px;
     font-weight: 600px;
 }
 
-.card-info p {
+.categories-info p {
     font-size: 18px;
     color: #757575;
     font-weight: 400px;

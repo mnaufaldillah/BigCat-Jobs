@@ -1,6 +1,7 @@
 import Hero from "../../Components/hero";
 import CourseCategories from "../../Components/course-categories";
 import CardCourse from "../../Components/cardCourses";
+import React from "react";
 
 const OnlineClass = () => {
   return (
@@ -12,15 +13,15 @@ const OnlineClass = () => {
       <div className="category-list">
         <h2>Categories</h2>
         <CourseCategories
-           image="design-class"
-           title="Design Class"
-           subTitle="UI/UX Graphic Design"
+          image="design-class"
+          title="Design Class"
+          subTitle="UI/UX Graphic Design"
         />
       </div>
       <div className="course-list">
         <h2>Choose Your Course</h2>
         <CardCourse
-          image="python"
+          image="https://jogjamultimedia.com/wp-content/uploads/2020/11/Kursus-Python.png"
           title="English Interview & Work Presentation"
           author="Thomas Adams"
           price="Rp 200,000"

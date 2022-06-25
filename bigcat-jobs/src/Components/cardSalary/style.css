@@ -3,37 +3,37 @@ a {
     color: #4271EA;
 }
 
-.card-wrapper {
+.salary-wrapper {
     width: 870px;
     height: 250px;
     border: 1px solid #4F4F4F;
     border-radius: 8px;
 }
 
-.card-content {
+.salary-content {
     padding: 40px;
  }
 
- .card-content img {
+ .salary-content img {
     height: 190px;
     width: 470px;
 }
 
-.card-info {
+.salary-info {
     line-height: 10px;
 }
 
-.card-info h1 {
+.salary-info h1 {
     font-size: 30px;
     font-weight: 700px;
 }
 
-.card-info h2 {
+.salary-info h2 {
     font-size: 26px;
     font-weight: 600px;
 }
 
-.card-info p {
+.salary-info p {
     font-size: 18px;
     font-weight: 400px;
 }

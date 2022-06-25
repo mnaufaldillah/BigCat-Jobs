@@ -3,39 +3,46 @@ a {
     color: #4271EA;
 }
 
-.card-wrapper {
+
+.mentor-wrapper {
+    margin-top: 60px;
     width: 520px;
     height: 660px;
     border: 1px solid #4F4F4F;
     border-radius: 8px;
 }
 
-.card-content {
+.mentor-content {
    padding: 40px;
 }
 
-.card-content img {
+.mentor-content img {
     height: 100px;
     width: 100px;
     border-radius: 100px;
 }
 
-.card-info {
-    line-height: 10px;
+.mentor-info {
+    color: #757575;
 }
 
-.card-info h1 {
+
+.mentor-info li {
+    margin-bottom: 16px;
+}
+
+.mentor-info h1 {
+    padding-top: 30px;
     font-size: 30px;
     font-weight: 700px;
 }
 
-.card-info h2 {
+.mentor-info h2 {
     font-size: 26px;
     font-weight: 600px;
 }
 
-.card-info p {
+.mentor-info p {
     font-size: 18px;
-    color: #757575;
     font-weight: 400px;
 }

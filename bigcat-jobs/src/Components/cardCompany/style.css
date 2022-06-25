@@ -3,37 +3,37 @@ a {
     color: #4271EA;
 }
 
-.card-wrapper {
+.company-wrapper {
     width: 570px;
     height: 170px;
     border: 1px solid #4F4F4F;
     border-radius: 8px;
 }
 
-.card-content {
+.company-content {
     padding: 40px;
  }
 
- .card-content img {
+ .company-content img {
     height: 190px;
     width: 470px;
 }
 
-.card-info {
+.company-info {
     line-height: 10px;
 }
 
-.card-info h1 {
+.company-info h1 {
     font-size: 30px;
     font-weight: 700px;
 }
 
-.card-info h2 {
+.company-info h2 {
     font-size: 26px;
     font-weight: 600px;
 }
 
-.card-info p {
+.company-info p {
     font-size: 18px;
     font-weight: 400px;
 }
