@@ -1,0 +1,39 @@
+
+.navbar {
+    width: 100%;
+    height: 40px;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 60px;
+}
+
+.navbar-logo {
+    font-size: 28px;
+    color: #4271EA;
+    font-weight: 600;
+}
+
+.navbar-menu {
+    font-size: 18px;
+}
+
+.navbar-menu ul {
+    display: flex;
+    width: 500px;
+    justify-content: space-between;
+}
+
+.navbar-menu li {
+    list-style: none;  
+}
+
+.navbar-menu a {
+    text-decoration: none;
+    color: rgb(98, 98, 98);
+    font-weight: 400;
+}
