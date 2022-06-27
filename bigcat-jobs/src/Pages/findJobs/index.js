@@ -1,6 +1,7 @@
 import Hero from "../../Components/hero/index";
 import CardJob from "../../Components/cardJob";
 import React from "react";
+import InputBar from "../../Components/inputBar";
 
 const FindJobs = () => {
   return (
@@ -9,6 +10,7 @@ const FindJobs = () => {
         title="Find  Your Dream Job With BigCat Jobs"
         subtitle="We provide services to improve your skills and find your dream job"
       />
+      <InputBar buttonName="Find Jobs" />
       <div className="recent-job-vacancies">
         <h2>Recent job vacancies </h2>
         <div className="card-job">
