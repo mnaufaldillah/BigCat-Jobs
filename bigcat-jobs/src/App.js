@@ -6,15 +6,29 @@ import Mentoring from "./Pages/mentoring";
 import OnlineClass from "./Pages/onlineClass";
 import Navbar from "./Components/navbar";
 import FindSalaries from "./Pages/findSalaries";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 function App() {
   return (
-    <div>
+    <Router>
       <Navbar />
       <div className="App">
-        <FindSalaries />
+        <Switch>
+          <Route path="/find-salary">
+            <FindSalaries />
+          </Route>
+          <Route path="/mentoring">
+            <Mentoring />
+          </Route>
+          <Route path="/online-course">
+            <OnlineClass />
+          </Route>
+          <Route path="/">
+            <FindJobs />
+          </Route>
+        </Switch>
       </div>
-    </div>
+    </Router>
   );
 }
 
