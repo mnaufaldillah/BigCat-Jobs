@@ -15,6 +15,9 @@ a {
 }
 
 .detail-content img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     height: 220px;
     width: 220px;
 }
@@ -24,16 +27,20 @@ a {
 }
 
 .detail-info h1 {
+    text-align: center;
     font-size: 30px;
     font-weight: 700px;
 }
 
 .detail-info h2 {
+    text-align: center;
+    color: #4271EA;
     font-size: 26px;
     font-weight: 600px;
 }
 
 .detail-info p {
+    text-align: center;
     font-size: 18px;
     color: #757575;
     font-weight: 400px;
