@@ -1,9 +1,36 @@
 import Hero from "../../Components/hero";
 import CourseCategories from "../../Components/course-categories";
 import CardCourse from "../../Components/cardCourses";
-import React from "react";
+import React, { useEffect, useState } from "react";
+import "./style.css";
 
 const OnlineClass = () => {
+  const [courses, setCourses] = useState([]);
+
+  const getCourses = async () => {
+    let uri = "http://localhost:8000/courses";
+
+    const res = await fetch(uri);
+    const data = await res.json();
+    setCourses(data);
+  };
+
+  const renderCourses = () => {
+    return courses.map((course) => (
+      <CardCourse
+        key={course.id}
+        image={course.image}
+        title={course.title}
+        author={course.author}
+        price={course.price}
+      />
+    ));
+  };
+
+  useEffect(() => {
+    getCourses();
+  });
+
   return (
     <>
       <Hero
@@ -19,13 +46,8 @@ const OnlineClass = () => {
         />
       </div>
       <div className="course-list">
-        <h2>Choose Your Course</h2>
-        <CardCourse
-          image="https://jogjamultimedia.com/wp-content/uploads/2020/11/Kursus-Python.png"
-          title="English Interview & Work Presentation"
-          author="Thomas Adams"
-          price="Rp 200,000"
-        />
+        <h2 style={{ marginBottom: "60px" }}>Choose Your Course</h2>
+        <div className="grid-container">{renderCourses()}</div>
       </div>
     </>
   );

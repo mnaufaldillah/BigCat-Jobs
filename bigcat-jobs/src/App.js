@@ -20,7 +20,7 @@ function App() {
           <Route path="/mentoring">
             <Mentoring />
           </Route>
-          <Route path="/online-course">
+          <Route path="/online-class">
             <OnlineClass />
           </Route>
           <Route path="/">

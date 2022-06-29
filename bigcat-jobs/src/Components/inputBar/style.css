@@ -2,15 +2,17 @@
     display: flex;
     justify-content: center;
     margin-bottom: 140px;
+    
 }
 
 .form input {
     width: 500px;
-    height:40px;
+    height:50px;
     margin-right: 20px;
     border: 1px solid #4F4F4F;
     border-radius: 6px;
     padding: 0 20px;
+    font-size: 16px;
 }
 
 .form input:focus::placeholder {
@@ -23,5 +25,6 @@
     color: #fff;
     border-radius: 6px;
     border: none;
+    font-size: 16px;
     font-weight: 600;
 }
