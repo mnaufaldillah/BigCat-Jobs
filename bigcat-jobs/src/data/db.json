@@ -1,4 +1,24 @@
 {
+    "categories": [
+        {
+            "id": 1,
+            "title": "Coding Class",
+            "sub": "Web & Application",
+            "image": "./images/categories/1.png"
+        },
+        {
+            "id": 2,
+            "title": "Soft Skills",
+            "sub": "Improve Your Skills",
+            "image": "./images/categories/2.png"
+        },
+        {
+            "id": 3,
+            "title": "Design Class",
+            "sub": "UI/UX Graphic Design",
+            "image": "./images/categories/3.png"
+        }
+    ],
     "courses": [
         {
             "id": 1,

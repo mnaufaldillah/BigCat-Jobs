@@ -14,7 +14,7 @@ a {
     padding: 40px;
  }
 
- .course-content img {
+.img-course {
     height: 190px;
     width: 440px;
 }
@@ -33,4 +33,12 @@ a {
     font-size: 18px;
     color: #757575;
     font-weight: 400px;
+    line-height: 10px;
 }
+
+.review {
+    display: flex;
+}
+
+
+

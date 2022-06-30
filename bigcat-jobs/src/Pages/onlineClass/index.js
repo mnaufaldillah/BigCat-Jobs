@@ -6,13 +6,20 @@ import "./style.css";
 
 const OnlineClass = () => {
   const [courses, setCourses] = useState([]);
+  const [courseCategories, setCourseCategories] = useState([]);
 
   const getCourses = async () => {
     let uri = "http://localhost:8000/courses";
-
     const res = await fetch(uri);
     const data = await res.json();
     setCourses(data);
+  };
+
+  const getCourseCategories = async () => {
+    let uri = "http://localhost:8000/categories";
+    const res = await fetch(uri);
+    const data = await res.json();
+    setCourseCategories(data);
   };
 
   const renderCourses = () => {
@@ -23,13 +30,25 @@ const OnlineClass = () => {
         title={course.title}
         author={course.author}
         price={course.price}
+        reviewNumber={course.viewers}
+      />
+    ));
+  };
+
+  const renderCourseCategories = () => {
+    return courseCategories.map((category) => (
+      <CourseCategories
+        image={category.image}
+        title={category.title}
+        subTitle={category.sub}
       />
     ));
   };
 
   useEffect(() => {
     getCourses();
-  });
+    getCourseCategories();
+  }, []);
 
   return (
     <>
@@ -39,11 +58,7 @@ const OnlineClass = () => {
       />
       <div className="category-list">
         <h2>Categories</h2>
-        <CourseCategories
-          image="design-class"
-          title="Design Class"
-          subTitle="UI/UX Graphic Design"
-        />
+        <div className="grid-container">{renderCourseCategories()}</div>
       </div>
       <div className="course-list">
         <h2 style={{ marginBottom: "60px" }}>Choose Your Course</h2>
