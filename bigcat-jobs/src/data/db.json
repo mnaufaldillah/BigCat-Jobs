@@ -24,7 +24,7 @@
             "id": 1,
             "title": "Fundamental Of Python",
             "author": "Thomas Adams",
-            "stars": 5,
+            "stars":  "./stars.svg",
             "viewers": 877,
             "price": "Rp 150,000",
             "image": "./images/courses/1.png"
@@ -33,7 +33,7 @@
             "id": 2,
             "title": "Data Science Using Python",
             "author": "Alex Martin",
-            "stars": 4,
+            "stars":  "./stars.svg",
             "viewers": 1234,
             "price": "Rp 250,000",
             "image": "./images/courses/2.png"
@@ -42,7 +42,7 @@
             "id": 3,
             "title": "English Interview & Work Presentation",
             "author": "Julia Margareth",
-            "stars": 5,
+            "stars":  "./stars.svg",
             "viewers": 2332,
             "price": "Rp 300,000",
             "image": "./images/courses/3.png"
@@ -51,7 +51,7 @@
             "id": 4,
             "title": "Introduction to FIgma",
             "author": "Son of Horus",
-            "stars": 5,
+            "stars":  "./stars.svg",
             "viewers": 1077,
             "price": "Rp 150,000",
             "image": "./images/courses/4.png"
@@ -60,7 +60,7 @@
             "id": 5,
             "title": "UI/UX Fundamenta;",
             "author": "Ray Reynald",
-            "stars": 5,
+            "stars":  "./stars.svg",
             "viewers": 877,
             "price": "Rp 150,000",
             "image": "./images/courses/5.png"
@@ -69,7 +69,7 @@
             "id": 6,
             "title": "Web Development",
             "author": "Thomas Adams",
-            "stars": 5,
+            "stars":  "./stars.svg",
             "viewers": 1877,
             "price": "Rp 350,000",
             "image": "./images/courses/6.png"

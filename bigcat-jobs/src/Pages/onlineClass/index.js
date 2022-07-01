@@ -30,6 +30,7 @@ const OnlineClass = () => {
         title={course.title}
         author={course.author}
         price={course.price}
+        stars={course.stars}
         reviewNumber={course.viewers}
       />
     ));

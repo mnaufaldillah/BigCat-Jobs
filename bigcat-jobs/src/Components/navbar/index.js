@@ -26,8 +26,8 @@ export default function Navbar() {
           </ul>
         </div>
         <div className="navbar-button">
-          <button>Log In</button>
-          <button>Sign Up</button>
+          <button className="login">Log In</button>
+          <button className="signup">Sign Up</button>
         </div>
       </div>
     </nav>
