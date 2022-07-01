@@ -15,7 +15,7 @@ Bigcat Jobs is a job search website created to fulfill the capstone project
 
 # Screenshots
 
-<img src="https://github.com/mnaufaldillah/BigCat-Jobs/blob/main/bigcat-jobs/public/Landing%20Page.png"> <img src="https://github.com/mnaufaldillah/BigCat-Jobs/blob/main/bigcat-jobs/public/Online%20Courses.png"> <img src="https://github.com/mnaufaldillah/BigCat-Jobs/blob/main/bigcat-jobs/public/Mentoring.png"> <img src="https://github.com/mnaufaldillah/BigCat-Jobs/blob/main/bigcat-jobs/public/Find%20Salaries.png">
+<img src="https://github.com/mnaufaldillah/BigCat-Jobs/blob/main/bigcat-jobs/public/Landing%20Page.png"> <img src="https://github.com/mnaufaldillah/BigCat-Jobs/blob/main/bigcat-jobs/public/Online%20Courses.png"> <img src="https://github.com/mnaufaldillah/BigCat-Jobs/blob/main/bigcat-jobs/public/Mentoring.png">
 
 # Tech Used
 
