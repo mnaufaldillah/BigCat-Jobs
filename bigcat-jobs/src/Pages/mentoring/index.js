@@ -1,8 +1,35 @@
 import Hero from "../../Components/hero";
 import MentoringCard from "../../Components/mentoringCard";
-import React from "react";
+import React, { useEffect, useState } from "react";
 
 const Mentoring = () => {
+  const [mentors, setMentor] = useState([]);
+
+  const getMentor = async () => {
+    let uri = "http://localhost:8000/mentor";
+    const res = await fetch(uri);
+    const data = await res.json();
+    setMentor(data);
+  };
+
+  const renderMentor = () => {
+    return mentors.map((mentor) => (
+      <MentoringCard
+        key={mentor.id}
+        image={mentor.image}
+        author={mentor.title}
+        subtitle={mentor.sub}
+        desc={mentor.desc}
+        price={mentor.price}
+        minute={mentor.minute}
+      />
+    ));
+  };
+
+  useEffect(() => {
+    getMentor();
+  }, []);
+
   return (
     <>
       <Hero
@@ -11,13 +38,7 @@ const Mentoring = () => {
       />
       <div className="mentor-list">
         <h2>Meet The Experts</h2>
-        <MentoringCard
-          image="https://cdn-images-1.medium.com/max/1200/1*i0f2d72a2jiUAK3mbyXn0A.png"
-          author="Thomas Adams"
-          subtitle="UI/UX Designer"
-          description="Memulai karir sebagai Data Analyst tanpa background IT"
-          price="Rp 200,000/60 Mins"
-        />
+        <div className="grid-container">{renderMentor()}</div>
       </div>
     </>
   );
