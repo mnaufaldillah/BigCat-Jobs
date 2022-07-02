@@ -49,7 +49,7 @@
         },
         {
             "id": 4,
-            "title": "Introduction to FIgma",
+            "title": "Introduction to Figma",
             "author": "Son of Horus",
             "stars":  "./stars.svg",
             "viewers": 1077,
@@ -74,5 +74,49 @@
             "price": "Rp 350,000",
             "image": "./images/courses/6.png"
         }
+    ],
+    "experts": [
+        {
+            "id": 1,
+            "title": "Thomas Adams",
+            "sub": "Web Development",
+            "price": "Rp 200,000/60 mins",
+            "img": "./images/experts/1.png"
+        },
+        {
+            "id": 2,
+            "title": "Ray Reynald",
+            "sub": "UI/UX Fundamental",
+            "price": "Rp 200,000/60 mins",
+            "img": "./images/experts/2.png"
+        },
+        {
+            "id": 3,
+            "title": "Son of Horus",
+            "sub": "Introduction to Figma",
+            "price": "Rp 200,000/60 mins",
+            "img": "./images/experts/3.png"
+        },
+        {
+            "id": 4,
+            "title": "Thomas Adams",
+            "sub": "Fundamental of Python",
+            "price": "Rp 200,000/60 mins",
+            "img": "./images/experts/4.png"
+        },
+        {
+            "id": 5,
+            "title": "Alex Martin",
+            "sub": "Data Science Using Python",
+            "price": "Rp 200,000/60 mins",
+            "img": "./images/experts/5.png"
+        },
+        {
+            "id": 6,
+            "title": "Julia Margareth",
+            "sub": "English Interview & Work Presentation",
+            "price": "Rp 200,000/60 mins",
+            "img": "./images/experts/6.png"
+        },
     ]
 }
