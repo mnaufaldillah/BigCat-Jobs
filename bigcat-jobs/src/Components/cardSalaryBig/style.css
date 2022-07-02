@@ -1,0 +1,39 @@
+a {
+    text-decoration: none;
+    color: #4271EA;
+}
+
+.salary-wrapper {
+    width: 16300px;
+    height: 30px;
+    border: 2px solid #999999;
+    border-radius: 20px;
+}
+
+.salary-content {
+    padding: 40px;
+ }
+
+ .salary-content img {
+    height: 190px;
+    width: 470px;
+}
+
+.salary-info {
+    line-height: 10px;
+}
+
+.salary-info h1 {
+    font-size: 30px;
+    font-weight: 700px;
+}
+
+.salary-info h2 {
+    font-size: 26px;
+    font-weight: 600px;
+}
+
+.salary-info p {
+    font-size: 18px;
+    font-weight: 400px;
+}
