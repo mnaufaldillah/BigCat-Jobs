@@ -259,13 +259,13 @@
             "type": "Full-time",
             "qualification":"Pengalaman 3 tahun dibidang IT",
             "desc":["PT RWE BHINDA is a Digital Agency, currently looking for a competent Web Developer Manager in their field. In general, the task of the Web Developer Manager is to create and manage websites and is responsible for the team."],
-             "respo":["1. Involved in the full cycle of developing, testing, deploying, maintaining, problem solving, and monitoring applications.",
-                      "2. Conduct research on the latest technology to support client needs.",
-                      "3. Make weekly progress reports.",
-                      "4. Provide advice, training, motivation and direction to team members in business planning/development.",
-                      "5. Able to do backup coding",
-                      "6. Supervise and oversee so that work flow, job descriptions and other components run according to SOPs.".
-                      "7. Oversee the smooth execution of day-to-day team operations and processes to ensure high quality delivery of related processes."
+             "respo":["Involved in the full cycle of developing, testing, deploying, maintaining, problem solving, and monitoring applications.",
+                      "Conduct research on the latest technology to support client needs.",
+                      "Make weekly progress reports.",
+                      "Provide advice, training, motivation and direction to team members in business planning/development.",
+                      "Able to do backup coding",
+                      "Supervise and oversee so that work flow, job descriptions and other components run according to SOPs.",
+                      "Oversee the smooth execution of day-to-day team operations and processes to ensure high quality delivery of related processes."
                 ],
              "status": "active recruiting",
              "image": "./images/jobs/6.png"
@@ -277,14 +277,14 @@
             "location": "Jakarta",
             "type": "Full-time",
             "qualification":"Pengalaman dalam software/Fresh Graduate",
-            "desc":["– Menguasai Software maupun pekerjaan yang diberikan",
-                    "– Mampu melakukan pengujian Software maupun sistem serta Uji coba test"],
-             "respo":["* Perangkat lunak",
-                      "* Melakukan Riset Website Dan Aplikasi",
-                      "* Desain Sebuah Software serta mengimplementasikannya",
-                      "* Pengujian Software maupun sistem serta Uji coba test",
-                      "* Membantu Pengembangan project perusahaan",
-                      "* Bertanggung jawab atas perangkat lunak"
+            "desc":["Menguasai Software maupun pekerjaan yang diberikan",
+                    "Mampu melakukan pengujian Software maupun sistem serta Uji coba test"],
+             "respo":["Perangkat lunak",
+                      "Melakukan Riset Website Dan Aplikasi",
+                      "Desain Sebuah Software serta mengimplementasikannya",
+                      "Pengujian Software maupun sistem serta Uji coba test",
+                      "Membantu Pengembangan project perusahaan",
+                      "Bertanggung jawab atas perangkat lunak"
                 ],
              "status": "active recruiting",
              "image": "./images/jobs/7.png"
@@ -298,8 +298,8 @@
             "qualification":"Tanpa Pengalaman Kerja, Pengalaman coding mobile APP",
             "desc":["PT. Tourin Global Wisata adalah perusahaan startup yang sedang menbangun infrastructure digital untuk tourisme & hiburan di indonesia.",
                     "Kami sedang mencari pekerja untuk IT Engineer & Software Developer untuk memperkembang aplikasi kami."],
-             "respo":["– Debugging",
-                      "– Testing & Development coding."
+             "respo":["Debugging",
+                      "Testing & Development coding."
                 ],
              "status": "active recruiting",
              "image": "./images/jobs/8.png"
