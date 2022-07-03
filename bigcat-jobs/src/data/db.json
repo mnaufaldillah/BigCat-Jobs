@@ -137,5 +137,60 @@
             "minute": "60 mins",
             "image": "./images/mentor/2.png"
         }
+    ],
+    "jobs": [
+        {
+            "id":1,
+            "title": "Administrasi",
+            "company": "CV.Kusuma Wijaya",
+            "location": "Medan",
+            "type": "Full-time",
+            "desc": "Bisa pencatatan serta pelaporan semua jenis data yang sesuai operasional",
+            "respo": "Menanggapi 75% atau lebih aplikasi dalam 30 hari terakhir"
+        },
+        {
+            "id":2,
+            "title": "Customer Service",
+            "company": "PT.Singgasana Mulia Kencana",
+            "location": "Jakarta",
+            "type": "Full-time",
+            "desc": "Harus bisa membangun hubungan yang baik dengan pelanggan perusahaan",
+            "respo": "Menanggapi 55% atau lebih aplikasi dalam 30 hari terakhir"
+        },
+        {
+            "id":3,
+            "title": "Manager Trainee",
+            "company": "PT.Royal Trust",
+            "location":"Jakarta",
+            "type": "Full-time",
+            "desc": "Memiliki public speaking",
+            "respo":"Menanggapi 75% atau lebih aplikasi dalam 30 hari terakhir, biasanya dalam 9 hari"
+        }   
+    ],
+    "salaries": [
+        {
+            "id":1,
+            "title": "Freelancer",
+            "company": "PT.GO-JEK",
+            "location": "Indonesia",
+            "average_salary": "RP 3,696,970 per month",
+            "yearly_salary": "RP 44,363,640"
+        },
+        {
+            "id":2,
+            "title": "Customer Service",
+            "company": "Grab",
+            "location": "Indonesia",
+            "average_salary": "RP 3,498,572 per month",
+            "yearly_salary": "RP 41,982,864"
+        },
+        {
+            "id":3,
+            "title": "Sopir",
+            "company": "Grab",
+            "location": "Indonesia",
+            "average_salary": "RP 3,031,870 per month",
+            "yearly_salary": "RP 36,382,440"
+        }
     ]
 }
