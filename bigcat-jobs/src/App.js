@@ -7,6 +7,7 @@ import OnlineClass from "./Pages/onlineClass";
 import Navbar from "./Components/navbar";
 import FindSalaries from "./Pages/findSalaries";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import NotFound from "./Pages/notFound";
 
 function App() {
   return (
@@ -23,8 +24,11 @@ function App() {
           <Route path="/online-class">
             <OnlineClass />
           </Route>
-          <Route path="/">
+          <Route exact path="/">
             <FindJobs />
+          </Route>
+          <Route path="*">
+            <NotFound />
           </Route>
         </Switch>
       </div>

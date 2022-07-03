@@ -42,15 +42,19 @@ const FindSalaries = () => {
   };
 
   const renderSalary = () => {
-    return salaries.map((salary) => (
-      <CardSalaryBig
-        key={salary.id}
-        job={salary.job}
-        location={salary.loc}
-        salary={convertToIDR(salary.salary)}
-        salaryMonth={covertPerMonth(salary.salary)}
-      />
-    ));
+    if (salaries.length === 0) {
+      return <h1>Not Found</h1>;
+    } else {
+      return salaries.map((salary) => (
+        <CardSalaryBig
+          key={salary.id}
+          job={salary.job}
+          location={salary.loc}
+          salary={convertToIDR(salary.salary)}
+          salaryMonth={covertPerMonth(salary.salary)}
+        />
+      ));
+    }
   };
 
   return (
