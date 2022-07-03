@@ -138,12 +138,54 @@
             "image": "./images/mentor/2.png"
         }
     ],
-    "find-salary": [
+    "jobs": [
         {
-            "id": 1,
-            "job": "software engineer",
+            "id":1,
+            "title": "Administrasi",
+            "company": "CV.Kusuma Wijaya",
+            "location": "Medan",
+            "type": "Full-time",
+            "desc": "Bisa pencatatan serta pelaporan semua jenis data yang sesuai operasional",
+            "respo": "Menanggapi 75% atau lebih aplikasi dalam 30 hari terakhir"
+        },
+        {
+            "id":2,
+            "title": "Customer Service",
+            "company": "PT.Singgasana Mulia Kencana",
+            "location": "Jakarta",
+            "type": "Full-time",
+            "desc": "Harus bisa membangun hubungan yang baik dengan pelanggan perusahaan",
+            "respo": "Menanggapi 55% atau lebih aplikasi dalam 30 hari terakhir"
+        },
+        {
+            "id":3,
+            "title": "Manager Trainee",
+            "company": "PT.Royal Trust",
+            "location":"Jakarta",
+            "type": "Full-time",
+            "desc": "Memiliki public speaking",
+            "respo":"Menanggapi 75% atau lebih aplikasi dalam 30 hari terakhir, biasanya dalam 9 hari"
+        }   
+    ],
+    "salaries": [
+        {
+            "id":1,
+            "job": "Freelancer",
             "loc": "Indonesia",
-            "salary": 123889800
+            "salary": 44363640
+        },
+        {
+            "id":2,
+            "job": "Customer Service",
+            "loc": "Indonesia",
+            "salary": 41982864
+        },
+        {
+            "id":3,
+            "job": "Sopir",
+            "loc": "Indonesia",
+            "salary": 36382440
         }
-    ]    
+    ]
+
 }
