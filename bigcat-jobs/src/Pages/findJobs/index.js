@@ -54,7 +54,7 @@ const FindJobs = () => {
   const renderJobs = () => {
     return (
       <div>
-        {jobs.length != 0 ? <h2>Your Job Search</h2> : ""}
+        {jobs.length !== 0 ? <h2>Your Job Search</h2> : ""}
         <div style={{ display: "flex", marginTop: "60px" }}>
           <div style={{ marginRight: "60px" }}>
             {jobs.map((job) => (
