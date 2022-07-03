@@ -270,6 +270,19 @@
             "job": "Software Developer",
             "loc": "Indonesia",
             "salary": 5000000
+        },
+        {
+            "id":4,
+            "job": "Programmer",
+            "loc": "Indonesia",
+            "salary": 5000000
+        }
+        ,
+        {
+            "id":5,
+            "job": "Mobile Developer",
+            "loc": "Indonesia",
+            "salary": 6000000
         }
     ]
 
