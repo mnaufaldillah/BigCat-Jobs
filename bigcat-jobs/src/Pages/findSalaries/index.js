@@ -11,7 +11,7 @@ const FindSalaries = () => {
 
   const getSalaries = async () => {
     const res = await fetch(
-      `http://localhost:8000/find-salary?job_like=${search.keyword.keyword}`
+      `http://localhost:8000/salaries?job_like=${search.keyword.keyword}`
     );
     const data = await res.json();
     setSalaries(data);
