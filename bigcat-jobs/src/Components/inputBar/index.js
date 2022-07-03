@@ -8,7 +8,7 @@ const InputBar = ({ onSubmit, buttonName }) => {
   const dispatch = useDispatch();
   const keyword = useSelector((state) => state.search.keyword);
 
-  console.log(keyword);
+  console.log(search.keyword.keyword);
 
   const handleText = (e) => {
     const { name, value } = e.target;

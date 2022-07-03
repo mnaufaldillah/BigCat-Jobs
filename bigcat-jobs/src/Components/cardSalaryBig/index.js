@@ -1,20 +1,20 @@
 import "./style.css";
 import React from "react";
 
-const CardSalaryBig = ({ title, numberYearly, numberMonthly }) => {
+const CardSalaryBig = ({ job, location, salary, salaryMonth }) => {
   return (
     <div className="salary-wrapper">
-      <h2>keyword</h2>
+      <h2>{job}</h2>
       <div className="salary-content">
         <span className="salary-border"></span>
         <div className="salary-info">
           <h2>Average Salary</h2>
           <div>
             <h1>
-              IDR {numberYearly} <span>per year</span>
+              IDR {salary} <span>per year</span>
             </h1>
             <p>
-              The average of a {title} is {numberMonthly} per year in Indonesia{" "}
+              The average of a {job} is {salaryMonth} per month in {location}
             </p>
           </div>
         </div>

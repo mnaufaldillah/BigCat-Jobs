@@ -137,5 +137,13 @@
             "minute": "60 mins",
             "image": "./images/mentor/2.png"
         }
-    ]
+    ],
+    "find-salary": [
+        {
+            "id": 1,
+            "job": "software engineer",
+            "loc": "Indonesia",
+            "salary": 123889800
+        }
+    ]    
 }
