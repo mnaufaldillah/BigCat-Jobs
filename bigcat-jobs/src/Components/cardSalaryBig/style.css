@@ -4,34 +4,45 @@ a {
 }
 
 .salary-wrapper {
-    width: 16300px;
-    height: 30px;
-    border: 2px solid #999999;
-    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 200px;
+    margin-bottom: 200px;
 }
 
 .salary-content {
+    display: flex;
+    justify-content: center;
     padding: 40px;
+    border: 1px solid #4f4f4f;
+    border-top: #4271EA solid 26px;
+    height: 130px;
+    border-radius: 6px;
  }
 
- .salary-content img {
-    height: 190px;
-    width: 470px;
-}
 
 .salary-info {
-    line-height: 10px;
+    display: flex;
+}
+
+.salary-info h2 {
+    font-size: 20px;
+    font-weight: 400;
+    margin-right: 200px;
 }
 
 .salary-info h1 {
     font-size: 30px;
-    font-weight: 700px;
+    font-weight: 700;
 }
 
-.salary-info h2 {
-    font-size: 26px;
-    font-weight: 600px;
+.salary-info h1 span {
+    font-size: 25px;
+    font-weight: 500;
 }
+
+
 
 .salary-info p {
     font-size: 18px;
