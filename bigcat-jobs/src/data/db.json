@@ -255,21 +255,63 @@
     "salaries": [
         {
             "id":1,
-            "job": "Freelancer",
+            "job": "Database Administrator",
             "loc": "Indonesia",
-            "salary": 44363640
+            "salary": 4000000
         },
         {
             "id":2,
-            "job": "Customer Service",
+            "job": "Web Developer",
             "loc": "Indonesia",
-            "salary": 41982864
+            "salary": 4500000
         },
         {
             "id":3,
-            "job": "Sopir",
+            "job": "Software Developer",
             "loc": "Indonesia",
-            "salary": 36382440
+            "salary": 5000000
+        },
+        {
+            "id":4,
+            "job": "Programmer",
+            "loc": "Indonesia",
+            "salary": 5000000
+        },
+        {
+            "id":5,
+            "job": "Mobile Developer",
+            "loc": "Indonesia",
+            "salary": 6000000
+        },
+        {
+            "id":6,
+            "job": "UI/UX Desainer",
+            "loc": "Indonesia",
+            "salary": 7000000
+        },
+        {
+            "id":7,
+            "job": "Data Analyst",
+            "loc": "Indonesia",
+            "salary": 4500000
+        },
+        {
+            "id":8,
+            "job": "Data Engineer",
+            "loc": "Indonesia",
+            "salary": 12000000
+        },
+        {
+            "id":9,
+            "job": "Fullstack Software Developer",
+            "loc": "Indonesia",
+            "salary": 7500000
+        },
+        {
+            "id":10,
+            "job": "Digital Marketing",
+            "loc": "Indonesia",
+            "salary": 3700000
         }
     ]
 
