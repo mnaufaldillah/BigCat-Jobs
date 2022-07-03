@@ -4,8 +4,8 @@ a {
 }
 
 .detail-wrapper {
-    width: 900px;
-    height: 1200px;
+    width: 1050px;
+    height: 1260px;
     border: 1px solid #4F4F4F;
     border-radius: 8px;
 }
@@ -44,4 +44,23 @@ a {
     font-size: 18px;
     color: #757575;
     font-weight: 400px;
+}
+
+.desc {
+    padding-bottom: 30px;
+    border-bottom: 1px solid rgb(136, 136, 136);
+}
+
+.detail-btn {
+    padding: 10px 30px;
+    background-color: #4271EA;
+    border-radius: 6px;
+    border: none;
+    margin: 70px 40%;
+}
+
+.detail-btn a {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
 }

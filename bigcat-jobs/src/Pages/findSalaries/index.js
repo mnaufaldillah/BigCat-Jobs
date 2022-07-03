@@ -1,8 +1,7 @@
 import Hero from "../../Components/hero";
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import { useSelector } from "react-redux";
 import InputBar from "../../Components/inputBar";
-import DetailJob from "../../Components/detailJob";
 import CardSalaryBig from "../../Components/cardSalaryBig";
 
 const FindSalaries = () => {
@@ -42,19 +41,15 @@ const FindSalaries = () => {
   };
 
   const renderSalary = () => {
-    if (salaries.length === 0) {
-      return <h1>Not Found</h1>;
-    } else {
-      return salaries.map((salary) => (
-        <CardSalaryBig
-          key={salary.id}
-          job={salary.job}
-          location={salary.loc}
-          salary={convertToIDR(salary.salary)}
-          salaryMonth={covertPerMonth(salary.salary)}
-        />
-      ));
-    }
+    return salaries.map((salary) => (
+      <CardSalaryBig
+        key={salary.id}
+        job={salary.job}
+        location={salary.loc}
+        salary={convertToIDR(salary.salary)}
+        salaryMonth={covertPerMonth(salary.salary)}
+      />
+    ));
   };
 
   return (
