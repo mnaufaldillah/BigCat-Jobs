@@ -288,6 +288,30 @@
             "job": "UI/UX Desainer",
             "loc": "Indonesia",
             "salary": 7000000
+        },
+        {
+            "id":7,
+            "job": "Data Analyst",
+            "loc": "Indonesia",
+            "salary": 4500000
+        },
+        {
+            "id":8,
+            "job": "Data Engineer",
+            "loc": "Indonesia",
+            "salary": 12000000
+        },
+        {
+            "id":9,
+            "job": "Fullstack Software Developer",
+            "loc": "Indonesia",
+            "salary": 7500000
+        },
+        {
+            "id":10,
+            "job": "Digital Marketing",
+            "loc": "Indonesia",
+            "salary": 3700000
         }
     ]
 
