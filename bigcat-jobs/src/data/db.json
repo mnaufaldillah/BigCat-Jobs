@@ -80,8 +80,8 @@
             "id": 1,
             "title": "James Austyn",
             "sub": "Web Development",
-            "desc": ["Memulai sebagai pengembang web dengan mempelajari dasar-dasar HTML, bahasa penting web",
-                     "Mempelajari dan melatih dasar-dasar CSS untuk menambahkan gaya yang indah ke halaman web",
+            "desc": ["Mempelajari dasar-dasar HTML",
+                     "Mempelajari dan melatih dasar-dasar CSS  ke halaman web",
                      "Mempelajari dasar-dasar JavaScript: sintaks, variabel, kondisional, dan fungsi."],
             "price": "Rp 250,000",
             "minute": "60 mins",
@@ -91,7 +91,7 @@
             "id": 2,
             "title": "Ray Reynald",
             "sub": "UX Fundamental",
-            "desc": ["Pahami Desain Pengalaman Pengguna ( UX ) untuk mulai mendesain aplikasi web dan seluler agar pengguna Anda tetap terlibat dan senang."],
+            "desc": ["Memulai karir sebagain ux designer","Pahami Desain Pengalaman Pengguna ( UX ) untuk mulai mendesain aplikasi web dan seluler agar pengguna Anda tetap terlibat dan senang.", "Tips sebagai UX Designer"],
             "price": "Rp 180,000",
             "minute": "60 mins",
             "image": "./images/mentor/4.png"
@@ -101,7 +101,8 @@
             "title": "Son of Horus",
             "sub": "Introduction to Figma",
             "desc": ["Memulai karir sebagai UI/UX Desainer",
-                     "Mempelajari tentang beberapa fitur utama Figma"],
+                     "Mempelajari tentang beberapa fitur utama Figma", 
+                    "Tips Menguasai Figma dari dasar hingga professional"],
             "price": "Rp 150,000",
             "minute": "60 mins",
             "image": "./images/mentor/3.png"
@@ -109,8 +110,8 @@
         {
             "id": 4,
             "title": "Thomas Adams",
-            "sub": "Fundamental of Python",
-            "desc": ["Python Fundamentals membantu Anda memulai dengan Python, bahasa dinamis yang populer untuk pengembangan web, data besar, sains, dan skrip."],
+            "sub": "Fundamental of Python dari dasa hingga professional",
+            "desc": ["Mempelajari Fundamental Python  ","Python untuk pengembangan web, data besar, sains, dan skrip.", "Review portofolio project python anda agar lebih baik"],
             "price": "Rp 200,000",
             "minute": "60 mins",
             "image": "./images/mentor/6.png"
@@ -131,7 +132,7 @@
             "id": 6,
             "title": "Julia Margareth",
             "sub": "English Interview & Work Presentation",
-            "desc": ["Sukseskan wawancara kerja Anda dalam bahasa Inggris, tingkatkan kepercayaan diri Anda, tata bahasa Inggris, dan jawab pertanyaan wawancara kerja."],
+            "desc": ["Sukseskan wawancara kerja Anda dalam bahasa Inggris","Tingkatkan kepercayaan diri Anda, tata bahasa Inggris",  " Tips menjawab pertanyaan wawancara kerja."],
             "price": "Rp 150,000",
             "minute": "60 mins",
             "image": "./images/mentor/2.png"
