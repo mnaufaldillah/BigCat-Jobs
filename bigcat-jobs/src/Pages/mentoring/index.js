@@ -37,7 +37,7 @@ const Mentoring = () => {
         subtitle="Get supportive and helpful advice from the experts to build the career of your dreams."
       />
       <div className="mentor-list">
-        <h2>Meet The Experts</h2>
+        <h2 style={{ marginBottom: "60px" }}>Meet The Experts</h2>
         <div className="grid-container">{renderMentor()}</div>
       </div>
     </>

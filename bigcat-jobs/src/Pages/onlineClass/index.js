@@ -39,6 +39,7 @@ const OnlineClass = () => {
   const renderCourseCategories = () => {
     return courseCategories.map((category) => (
       <CourseCategories
+        key={category.id}
         image={category.image}
         title={category.title}
         subTitle={category.sub}

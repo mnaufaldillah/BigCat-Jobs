@@ -1,7 +1,7 @@
 import "./style.css";
 import React from "react";
 
-const MentoringCard = ({ image, author, subtitle, description, price }) => {
+const MentoringCard = ({ image, author, subtitle, desc, price, minute }) => {
   return (
     <div className="mentor-wrapper">
       <div className="mentor-content">
@@ -12,11 +12,16 @@ const MentoringCard = ({ image, author, subtitle, description, price }) => {
           </h2>
           <p>{subtitle}</p>
           <ul>
-            <li>Memulai karir sebagai Data Analyst tanpa background IT</li>
-            <li>Konsultasi belajar teori dan praktik terkait Data Analytics</li>
-            <li>Basic/Intermediate/Advanced SQL Google BigQuery</li>
+            {desc.map((item, index) => {
+              return <li key={index}>{item}</li>;
+            })}
           </ul>
-          <h1>{price}</h1>
+          <h1>
+            {price} / {minute}
+          </h1>
+          <button className="mentor-btn">
+            <a href="#">Book Now</a>
+          </button>
         </div>
       </div>
     </div>

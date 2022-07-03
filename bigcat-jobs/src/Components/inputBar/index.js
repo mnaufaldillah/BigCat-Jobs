@@ -1,40 +1,36 @@
 import React, { useState } from "react";
 import "./style.css";
-
-const sendFromNetworkCall = (data) => console.log(data);
+import { useSelector, useDispatch } from "react-redux";
+import { setSearch } from "../../redux/search-slicer";
 
 const InputBar = ({ onSubmit, buttonName }) => {
-  const [search, setSearch] = useState({
-    keyword: '',
-    location: '',
-  });
+  const search = useSelector((state) => state.search);
+  const dispatch = useDispatch();
+  const keyword = useSelector((state) => state.search.keyword);
 
-  const handleSearch = (e) => {
-    e.preventDefault();
-    sendFromNetworkCall(search);
-  };
+  console.log(keyword);
 
   const handleText = (e) => {
     const { name, value } = e.target;
-    setSearch({ ...search, [name]: value });
+    dispatch(setSearch({ ...search, [name]: value }));
   };
 
   return (
     <form onSubmit={onSubmit} className="form">
       <input
-        id="keyword" 
+        id="keyword"
         type="text"
         name="keyword"
-        value={search.keyword}
         onChange={handleText}
-        placeholder="job title, keyword or company" />
-      <input 
+        placeholder="job title, keyword or company"
+      />
+      <input
         id="location"
-        type="text" 
+        type="text"
         name="location"
-        value={search.location}
         onChange={handleText}
-        placeholder="city, province or region" />
+        placeholder="city, province or region"
+      />
       <button type="submit" className="form-button">
         {buttonName}
       </button>

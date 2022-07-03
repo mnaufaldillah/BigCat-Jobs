@@ -5,7 +5,6 @@ a {
 
 
 .mentor-wrapper {
-    margin-top: 60px;
     width: 520px;
     height: 660px;
     border: 1px solid #4F4F4F;
@@ -45,4 +44,18 @@ a {
 .mentor-info p {
     font-size: 18px;
     font-weight: 400px;
+}
+
+.mentor-btn {
+    padding: 10px 30px;
+    background-color: #4271EA;
+    border-radius: 6px;
+    border: none;
+    margin: 8px 32%;
+}
+
+.mentor-btn a {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
 }
