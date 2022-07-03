@@ -1,0 +1,233 @@
+{
+    "categories": [
+        {
+            "id": 1,
+            "title": "Coding Class",
+            "sub": "Web & Application",
+            "image": "./images/categories/1.png"
+        },
+        {
+            "id": 2,
+            "title": "Soft Skills",
+            "sub": "Improve Your Skills",
+            "image": "./images/categories/2.png"
+        },
+        {
+            "id": 3,
+            "title": "Design Class",
+            "sub": "UI/UX Graphic Design",
+            "image": "./images/categories/3.png"
+        }
+    ],
+    "courses": [
+        {
+            "id": 1,
+            "title": "Fundamental Of Python",
+            "author": "Thomas Adams",
+            "stars":  "./stars.svg",
+            "viewers": 877,
+            "price": "Rp 150,000",
+            "image": "./images/courses/1.png"
+        },
+        {
+            "id": 2,
+            "title": "Data Science Using Python",
+            "author": "Alex Martin",
+            "stars":  "./stars.svg",
+            "viewers": 1234,
+            "price": "Rp 250,000",
+            "image": "./images/courses/2.png"
+        },
+        {
+            "id": 3,
+            "title": "English Interview & Work Presentation",
+            "author": "Julia Margareth",
+            "stars":  "./stars.svg",
+            "viewers": 2332,
+            "price": "Rp 300,000",
+            "image": "./images/courses/3.png"
+        },
+        {
+            "id": 4,
+            "title": "Introduction to Figma",
+            "author": "Son of Horus",
+            "stars":  "./stars.svg",
+            "viewers": 1077,
+            "price": "Rp 150,000",
+            "image": "./images/courses/4.png"
+        },
+        {
+            "id": 5,
+            "title": "UX Fundamental",
+            "author": "Ray Reynald",
+            "stars":  "./stars.svg",
+            "viewers": 877,
+            "price": "Rp 150,000",
+            "image": "./images/courses/5.png"
+        },
+        {
+            "id": 6,
+            "title": "Web Development",
+            "author": "James Austyn",
+            "stars":  "./stars.svg",
+            "viewers": 1877,
+            "price": "Rp 350,000",
+            "image": "./images/courses/6.png"
+        }
+    ],
+    "mentor": [
+        {
+            "id": 1,
+            "title": "James Austyn",
+            "sub": "Web Development",
+            "desc": ["Mempelajari dasar-dasar HTML",
+                     "Mempelajari dan melatih dasar-dasar CSS  ke halaman web",
+                     "Mempelajari dasar-dasar JavaScript: sintaks, variabel, kondisional, dan fungsi."],
+            "price": "Rp 250,000",
+            "minute": "60 mins",
+            "image": "./images/mentor/1.png"
+        },
+        {
+            "id": 2,
+            "title": "Ray Reynald",
+            "sub": "UX Fundamental",
+            "desc": ["Memulai karir sebagain ux designer","Pahami Desain Pengalaman Pengguna ( UX ) untuk mulai mendesain aplikasi web dan seluler agar pengguna Anda tetap terlibat dan senang.", "Tips sebagai UX Designer"],
+            "price": "Rp 180,000",
+            "minute": "60 mins",
+            "image": "./images/mentor/4.png"
+        },
+        {
+            "id": 3,
+            "title": "Son of Horus",
+            "sub": "Introduction to Figma",
+            "desc": ["Memulai karir sebagai UI/UX Desainer",
+                     "Mempelajari tentang beberapa fitur utama Figma", 
+                    "Tips Menguasai Figma dari dasar hingga professional"],
+            "price": "Rp 150,000",
+            "minute": "60 mins",
+            "image": "./images/mentor/3.png"
+        },
+        {
+            "id": 4,
+            "title": "Thomas Adams",
+            "sub": "Fundamental of Python dari dasa hingga professional",
+            "desc": ["Mempelajari Fundamental Python  ","Python untuk pengembangan web, data besar, sains, dan skrip.", "Review portofolio project python anda agar lebih baik"],
+            "price": "Rp 200,000",
+            "minute": "60 mins",
+            "image": "./images/mentor/6.png"
+        },
+        {
+            "id": 5,
+            "title": "Alex Martin",
+            "sub": "Data Science Using Python",
+            "desc": ["Mengenal Data Science secara teori dan praktik",
+                     "Mengenal Exploratory Data Analysis",
+                     "Menggunakan Teknik - teknik Machine Learning untuk kasus Data Science",
+                     "Menyelesaikan berbagai case study"],
+            "price": "Rp 200,000",
+            "minute": "60 mins",
+            "image": "./images/mentor/5.png"
+        },
+        {
+            "id": 6,
+            "title": "Julia Margareth",
+            "sub": "English Interview & Work Presentation",
+            "desc": ["Sukseskan wawancara kerja Anda dalam bahasa Inggris","Tingkatkan kepercayaan diri Anda, tata bahasa Inggris",  " Tips menjawab pertanyaan wawancara kerja."],
+            "price": "Rp 150,000",
+            "minute": "60 mins",
+            "image": "./images/mentor/2.png"
+        }
+    ],
+    "jobs": [
+        {
+            "id":1,
+            "position": "Administrasi",
+            "company": "CV.Kusuma Wijaya",
+            "location": "Medan",
+            "job type": "Full-time",
+            "qualification": "Minimum D3 / S1 (Akuntansi - khusus untuk pemohon Accounting)",
+            "job desc": ["Bisa pencatatan serta pelaporan semua jenis data yang sesuai operasional",
+                         "Menguasai aplikasi komputer untuk akunting",
+                         "Harus bisa menguasai bahasa inggris"],
+            "respo": "Menanggapi 75% atau lebih aplikasi dalam 30 hari terakhir"
+        },
+        {
+            "id":2,
+            "position": "Customer Service",
+            "company": "PT.Singgasana Mulia Kencana",
+            "location": "Jakarta",
+            "job type": "Full-time",
+            "qualification":"Min D3/S1 Semua Jurusan (Diutamakan Jurusan Komunikasi dan Administrasi)",
+            "job desc": ["Harus bisa membangun hubungan yang baik dengan pelanggan perusahaan",
+                         "Bertanggung jawab merespon seluruh pertanyaan customer / calon customer",
+                         "Memberikan respon dan solusi yang cepat terhadap semua keluhan customer / calon customer",
+                         "Menindak lanjuti dan memastikan bahwa customer / calon customer mendapatkan solusi yang tepat utk setiap permasalahannya"],
+            "respo": "Menanggapi 55% atau lebih aplikasi dalam 30 hari terakhir"
+        },
+        {
+            "id":3,
+            "position": "Manager Trainee",
+            "company": "PT.Royal Trust",
+            "location":"Jakarta",
+            "job type": "Full-time",
+            "qualification": "Fresh Graduate, Usia min.18th max.27 th",
+            "job desc": ["Mengikuti Pelatihan, Seminar, ataupun Workshop",
+                         "Belajar dari Karyawan yang Sudah Berpengalaman",
+                         "Mengikuti Evaluasi",
+                         "Mempelajari Perusahaan",
+                         "Membuat laporan"],
+            "respo":"Menanggapi 75% atau lebih aplikasi dalam 30 hari terakhir, biasanya dalam 7 hari"
+        }, 
+        {
+           "id":4,
+           "position": "Front end",
+           "company": "PT. Sharing Vision",
+           "location": "Jakarta",
+           "job type":"Full-time",
+           "qualification":"Fresh Graduate, Usia min.18th max.28 th",
+           "job desc":["Mempunyai pengalaman minimal 1 tahun sebagai software developer atau programmer dalam pekerjaan/proyek/tugas akhir",
+                    "Berpengalaman dalam teknologi software-frontend: React.js, Next.js, Node.js",
+                    "Pengetahuan tentang JavaScript, CSS, HTML, dan Bahasa Front-end lainnya",
+                    "Pengalaman user interface design",
+                    "Dapat komunikasi, memecahkan masalah, dan memanajemen proyek dengan baik",
+                    "Mempunyai portfolio pengembangan sistem yang pernah dilakukan dan dapat ditunjukkan"],
+            "respo":"Menanggapi 75% atau lebih aplikasi dalam 30 hari terakhir"
+        },
+        {
+            "id":5,
+            "position": "Front End Web Developer",
+            "company": "PT. Dyandra Promosindo",
+            "location": "Jakarta",
+            "job type":"Full-time",
+            "qualification":"Fresh Graduate/ Pengalaman 1 tahun",
+            "job desc":["Menentukan struktur atau desain halaman web atau aplikasi",
+                "Membangun tampilan web atau aplikasi yang menarik",
+                "Membangun tampilan web atau aplikasi untuk meningkatkan customer experience",
+                "Memastikan web yang dibuatnya responsive ketika digunakan. baik dalam mode web, mode tab, atau mode mobile",
+                "Memahami HTML, CSS, Jquery"],
+             "respo":"Menanggapi 75% atau lebih aplikasi dalam 30 hari terakhir"
+        }
+        
+    ],
+    "salaries": [
+        {
+            "id":1,
+            "job": "Freelancer",
+            "loc": "Indonesia",
+            "salary": 44363640
+        },
+        {
+            "id":2,
+            "job": "Customer Service",
+            "loc": "Indonesia",
+            "salary": 41982864
+        },
+        {
+            "id":3,
+            "job": "Sopir",
+            "loc": "Indonesia",
+            "salary": 36382440
+        }
+    ]
+
+}
