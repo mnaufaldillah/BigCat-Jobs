@@ -21,8 +21,6 @@ const FindSalaries = () => {
     getSalaries();
   };
 
-  console.log(salaries);
-
   const convertToIDR = (salary) => {
     return salary
       .toString()

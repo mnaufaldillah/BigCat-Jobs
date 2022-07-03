@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import "./style.css";
 import { useSelector, useDispatch } from "react-redux";
 import { setSearch } from "../../redux/search-slicer";
@@ -6,9 +6,8 @@ import { setSearch } from "../../redux/search-slicer";
 const InputBar = ({ onSubmit, buttonName }) => {
   const search = useSelector((state) => state.search);
   const dispatch = useDispatch();
-  const keyword = useSelector((state) => state.search.keyword);
 
-  console.log(search.keyword.keyword);
+  console.log(search);
 
   const handleText = (e) => {
     const { name, value } = e.target;

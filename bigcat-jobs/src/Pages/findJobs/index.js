@@ -39,6 +39,7 @@ const FindJobs = () => {
       .filter((job) => job.id === jobsID)
       .map((jobFilter) => (
         <DetailJob
+          key={jobFilter.id}
           image={jobFilter.image}
           company={jobFilter.company}
           position={jobFilter.position}
@@ -59,6 +60,7 @@ const FindJobs = () => {
           <div style={{ marginRight: "60px" }}>
             {jobs.map((job) => (
               <CardJob
+                key={job.id}
                 image={job.image}
                 position={job.position}
                 company={job.company}
@@ -80,6 +82,7 @@ const FindJobs = () => {
       .slice(0, 3)
       .map((job) => (
         <CardJob
+          key={job.id}
           image={job.image}
           position={job.position}
           company={job.company}
