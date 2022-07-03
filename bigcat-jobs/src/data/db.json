@@ -58,7 +58,7 @@
         },
         {
             "id": 5,
-            "title": "UI/UX Fundamenta;",
+            "title": "UX Fundamental",
             "author": "Ray Reynald",
             "stars":  "./stars.svg",
             "viewers": 877,
@@ -68,7 +68,7 @@
         {
             "id": 6,
             "title": "Web Development",
-            "author": "Thomas Adams",
+            "author": "James Austyn",
             "stars":  "./stars.svg",
             "viewers": 1877,
             "price": "Rp 350,000",
@@ -78,23 +78,21 @@
     "mentor": [
         {
             "id": 1,
-            "title": "Thomas Adams",
+            "title": "James Austyn",
             "sub": "Web Development",
-            "desc": ["Memulai karir sebagai Data Analyst tanpa background IT",
-                     "Konsultasi belajar teori dan praktik terkait Data Analytics",
-                     "Basic/Intermediate/Advanced SQL Google BigQuery"],
-            "price": "Rp 200,000",
+            "desc": ["Memulai sebagai pengembang web dengan mempelajari dasar-dasar HTML, bahasa penting web",
+                     "Mempelajari dan melatih dasar-dasar CSS untuk menambahkan gaya yang indah ke halaman web",
+                     "Mempelajari dasar-dasar JavaScript: sintaks, variabel, kondisional, dan fungsi."],
+            "price": "Rp 250,000",
             "minute": "60 mins",
             "image": "./images/mentor/1.png"
         },
         {
             "id": 2,
             "title": "Ray Reynald",
-            "sub": "UI/UX Fundamental",
-            "desc": ["Memulai karir sebagai Data Analyst tanpa background IT",
-                     "Konsultasi belajar teori dan praktik terkait Data Analytics",
-                     "Basic/Intermediate/Advanced SQL Google BigQuery"],
-            "price": "Rp 200,000",
+            "sub": "UX Fundamental",
+            "desc": ["Pahami Desain Pengalaman Pengguna ( UX ) untuk mulai mendesain aplikasi web dan seluler agar pengguna Anda tetap terlibat dan senang."],
+            "price": "Rp 180,000",
             "minute": "60 mins",
             "image": "./images/mentor/4.png"
         },
@@ -102,10 +100,9 @@
             "id": 3,
             "title": "Son of Horus",
             "sub": "Introduction to Figma",
-            "desc": ["Memulai karir sebagai Data Analyst tanpa background IT",
-                     "Konsultasi belajar teori dan praktik terkait Data Analytics",
-                     "Basic/Intermediate/Advanced SQL Google BigQuery"],
-            "price": "Rp 200,000",
+            "desc": ["Memulai karir sebagai UI/UX Desainer",
+                     "Mempelajari tentang beberapa fitur utama Figma"],
+            "price": "Rp 150,000",
             "minute": "60 mins",
             "image": "./images/mentor/3.png"
         },
@@ -113,20 +110,19 @@
             "id": 4,
             "title": "Thomas Adams",
             "sub": "Fundamental of Python",
-            "desc": ["Memulai karir sebagai Data Analyst tanpa background IT",
-                     "Konsultasi belajar teori dan praktik terkait Data Analytics",
-                     "Basic/Intermediate/Advanced SQL Google BigQuery"],
+            "desc": ["Python Fundamentals membantu Anda memulai dengan Python, bahasa dinamis yang populer untuk pengembangan web, data besar, sains, dan skrip."],
             "price": "Rp 200,000",
             "minute": "60 mins",
-            "image": "./images/mentor/1.png"
+            "image": "./images/mentor/6.png"
         },
         {
             "id": 5,
             "title": "Alex Martin",
             "sub": "Data Science Using Python",
-            "desc": ["Memulai karir sebagai Data Analyst tanpa background IT",
-                     "Konsultasi belajar teori dan praktik terkait Data Analytics",
-                     "Basic/Intermediate/Advanced SQL Google BigQuery"],
+            "desc": ["Mengenal Data Science secara teori dan praktik",
+                     "Mengenal Exploratory Data Analysis",
+                     "Menggunakan Teknik - teknik Machine Learning untuk kasus Data Science",
+                     "Menyelesaikan berbagai case study"],
             "price": "Rp 200,000",
             "minute": "60 mins",
             "image": "./images/mentor/5.png"
@@ -135,10 +131,8 @@
             "id": 6,
             "title": "Julia Margareth",
             "sub": "English Interview & Work Presentation",
-            "desc": ["Memulai karir sebagai Data Analyst tanpa background IT",
-                     "Konsultasi belajar teori dan praktik terkait Data Analytics",
-                     "Basic/Intermediate/Advanced SQL Google BigQuery"],
-            "price": "Rp 200,000",
+            "desc": ["Sukseskan wawancara kerja Anda dalam bahasa Inggris, tingkatkan kepercayaan diri Anda, tata bahasa Inggris, dan jawab pertanyaan wawancara kerja."],
+            "price": "Rp 150,000",
             "minute": "60 mins",
             "image": "./images/mentor/2.png"
         }
